@@ -1,0 +1,14 @@
+.buttonAction {
+  padding: 13px 76px;
+  border: 1px solid #d58c51;
+  background: local;
+  span {
+    color: #d58c51;
+  }
+  &:hover {
+    background: #d58c51;
+    span {
+      color: black;
+    }
+  }
+}

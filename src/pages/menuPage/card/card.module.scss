@@ -1,0 +1,62 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 552px;
+  justify-content: space-between;
+  padding: 40px 20px 36px 20px;
+  border: 1px solid #d58c51;
+  &__image {
+    display: block;
+    margin: 0 auto;
+    width: 270px;
+    height: 270px;
+  }
+  &__title {
+    margin: 31px 0px 20px 0px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    gap: 10px;
+  }
+  &__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  &__price {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+  }
+  &__weight {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    > img:first-child {
+      display: block;
+    }
+    > img:last-child {
+      display: none;
+    }
+    &:hover {
+      > img:first-child {
+        display: none;
+      }
+
+      > img:last-child {
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.basketCard {
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &__img {
+    width: 122px;
+    height: 122px;
+    object-fit: cover;
+  }
+  &__title {
+    padding: 0;
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+  &__price {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #d58c51;
+  }
+  &__button {
+    margin-left: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  &__action {
+    display: flex;
+    align-items: center;
+  }
+  &__main {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+  }
+}

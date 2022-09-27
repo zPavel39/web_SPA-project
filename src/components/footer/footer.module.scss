@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 290px;
+    border-top: 1px solid #d58c51;
+    &__title {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #ffffff;
+        &_sum {
+            margin-left: 16px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #d58c51;
+        }
+    }
+    &__btn {
+        background: #d58c51;
+        padding: 13px 40px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #131313;
+        cursor: pointer;
+        &:hover {
+            color: #ffffff;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.info {
+  height: 100vh;
+  background: no-repeat;
+  background: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__main {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 50px;
+  }
+  &__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__img {
+    height: 500px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  &__title {
+    color: #d58c51;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    margin-bottom: 21px;
+  }
+  &__description {
+    font-weight: 400;
+    width: 520px;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 34px;
+  }
+  &__action {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+  }
+  &__price_card {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+  }
+  &__price_weigh {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.buttonAction {
+  padding: 13px 76px;
+  border: 1px solid #d58c51;
+  background: local;
+  span {
+    color: #d58c51;
+  }
+  &:hover {
+    background: #d58c51;
+    span {
+      color: black;
+    }
+  }
+}
